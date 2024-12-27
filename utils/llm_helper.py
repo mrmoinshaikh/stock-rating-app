@@ -5,10 +5,14 @@ import os
 # Load environment variables
 load_dotenv()
 
+# Retrieve the API key and model name from environment variables
+groq_api_key = os.getenv("GROQ_API_KEY")
+model_name = os.getenv("model_name")
+
 # Initialize the Groq Cloud LLM
 llm = ChatGroq(
-    groq_api_key=os.getenv("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"),
-    model_name="llama3-8b-8192"
+    groq_api_key=groq_api_key,
+    model_name=model_name
 )
 
 def analyze_stock(prompt):
