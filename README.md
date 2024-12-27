@@ -49,19 +49,21 @@ Ensure you have the following installed:
 
 2. Install dependencies:
 
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
+
 
 3. Set up your .env file with the following content:
-```bash
-GROQ_API_KEY=your_groq_api_key
-GROQ_MODEL_NAME=llama3-8b-8192
-Replace your_groq_api_key with your actual API key.
+   ```bash
+   GROQ_API_KEY=your_groq_api_key
+   GROQ_MODEL_NAME=llama3-8b-8192
+   Replace your_groq_api_key with your actual API key.
 
 4. Run the application:
 
-```bash
-streamlit run app.py
+   ```bash
+   streamlit run app.py
 
 ## Usage
 Enter the stock ticker symbol in the sidebar.
