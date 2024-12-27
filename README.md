@@ -45,6 +45,7 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/stock-rating-system.git
+   
 
 2. Install dependencies:
 
