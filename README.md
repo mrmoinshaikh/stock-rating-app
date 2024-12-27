@@ -1,4 +1,4 @@
-# Stock Rating System
+# Stock Rating System using LLama 3.1
 
 The **Stock Rating System** is a user-friendly web application that allows users to analyze stock metrics and receive a comprehensive rating. It leverages AI to provide insights, helping users make informed decisions about their stock investments.
 
@@ -45,4 +45,31 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/stock-rating-system.git
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+3. Set up your .env file with the following content:
+```bash
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL_NAME=llama3-8b-8192
+Replace your_groq_api_key with your actual API key.
+
+4. Run the application:
+
+```bash
+streamlit run app.py
+
+## Usage
+Enter the stock ticker symbol in the sidebar.
+Example: AAPL for Apple or TATAMOTORS.NS for Tata Motors.
+
+Click the Analyze Stock button.
+
+View the stock rating, key metrics, and AI-generated analysis.
+
+## Contributing
+If you'd like to contribute to the development of the Stock Rating System, feel free to fork the repository, make your changes, and submit a pull request. All contributions are welcome!
 
